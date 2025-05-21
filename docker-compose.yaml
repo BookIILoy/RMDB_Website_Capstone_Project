@@ -1,0 +1,16 @@
+version: '3.1'
+services:
+  frontend_user_server:
+    build: ./frontend
+    ports:
+      - "3000:3000"
+
+  express_backend:
+    build: ./backend_javascript
+    ports:
+      - "8080:8080"
+
+  django_backend:
+    build: ./backend
+    ports:
+      - "8000:8000"
