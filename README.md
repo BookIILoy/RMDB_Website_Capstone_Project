@@ -28,7 +28,7 @@
 
 1. Clone repository
 ```
--git clone https://github.com/mynameisO/RMDB_project.git
+-git clone https://github.com/BookIILoy/RMDB_Website_Capstone_Project.git
 ```
 2. Move to frontend folder
 ```
